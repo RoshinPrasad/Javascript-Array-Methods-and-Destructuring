@@ -1,0 +1,143 @@
+1.Currying
+	Currying is when you break down a function that takes multiple arguments into a series of functions that each take only one argument.
+	Currying provides a way for working with functions that take multiple arguments, and using them in frameworks where functions might take only one argument.
+
+2.DOM
+	With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+	The DOM defines a standard for accessing documents.
+	The W3C DOM standard is separated into 3 different parts:
+
+		*Core DOM - standard model for all document types
+		*XML DOM - standard model for XML documents
+		*HTML DOM - standard model for HTML documents
+	In the DOM, all HTML elements are defined as objects.
+ 	
+	DOM methods:
+		HTML DOM methods are actions you can perform (on HTML Elements).
+		HTML DOM properties are values (of HTML Elements) that you can set or change.
+
+#.BOM
+                  The Browser Object Model (BOM)
+                   (BOM) allows JavaScript to "talk to" the browser.
+
+3.Scope
+                 Scope determines the accessibility (visibility) of variables.
+
+                 JavaScript has 3 types of scope:
+
+                    Block scope
+                    Function scope
+                    Global scope 
+4.Loops
+                Loops can execute a block of code a number of times.
+                
+5.Conditions
+                
+              In JavaScript we have the following conditional statements:-
+
+                           Use if to specify a block of code to be executed, if a specified condition is true
+                           Use else to specify a block of code to be executed, if the same condition is false
+                           Use else if to specify a new condition to test, if the first condition is false
+                           Use switch to specify many alternative blocks of code to be executed
+
+6.Objects
+                In JavaScript, almost "everything" is an object.
+
+                             Booleans can be objects (if defined with the new keyword)
+                             Numbers can be objects (if defined with the new keyword)
+                             Strings can be objects (if defined with the new keyword)
+                             Dates are always objects
+                             Maths are always objects
+                             Regular expressions are always objects
+                             Arrays are always objects
+                             Functions are always objects
+                             Objects are always objects
+                             All JavaScript values, except primitives, are objects.
+
+                                 # With JavaScript, you can define and create your own objects.
+
+                                  There are different ways to create new objects:
+
+                                  Create a single object, using an object literal.
+                                  Create a single object, with the keyword new.
+                                  Define an object constructor, and then create objects of the constructed type.
+                                  Create an object using Object.create()
+
+7.this
+                  this keyword refers to an object.
+               
+                     In an object method, this refers to the object.
+                        Alone, this refers to the global object.
+                        In a function, this refers to the global object.
+                        In a function, in strict mode, this is undefined.
+                        In an event, this refers to the element that received the event.
+                        Methods like call(), apply(), and bind() can refer this to any object.
+
+8.Window
+                  The window object is supported by all browsers. It represents the browser's window.
+
+                   All global JavaScript objects, functions, and variables automatically become members of the window object.
+                  Global variables are properties of the window object.
+                  Global functions are methods of the window object.
+                  Even the document object (of the HTML DOM) is a property of the window object:
+
+                 
+                  Some other methods:
+
+                  window.open() - open a new window
+                  window.close() - close the current window
+                  window.moveTo() - move the current window
+                  window.resizeTo() - resize the current window
+
+9.== & ===
+                  The main difference between the == and === operator in javascript is that the == operator does the type conversion of the operands   before comparison, whereas the === operator compares the values as well as the data types of the operands.  
+                   loose equality (==) and strict equality operators (===).
+
+10.SetInterval
+                   setInterval() The setInterval() method, offered on the Window and Worker interfaces, repeatedly calls a function or executes a code  snippet, with a fixed time delay between each call. This method returns an interval ID which uniquely identifies the interval, so you                    can remove it later by calling clearInterval() .
+
+11.Javascript Engine
+                   A JavaScript engine is a software component that executes JavaScript code. 
+                        (( JavaScript is not understandable by computer but the only browser understands JavaScript. So, we need a program to convert      our JavaScript program into computer-understandable language. A JavaScript engine is a computer program that executes      JavaScript code and converts it into computer understandable language.))
+
+12.Call Stack
+                  The call stack is used by JavaScript to keep track of multiple function calls.
+                  Call Stack in JavaScript is a type of data structure that maintains the tracks of invoked and executed functions.
+
+13.Generator
+                  A generator-function is defined like a normal function, but whenever it needs to generate a value, it does so with the yield keyword                   rather than return. 
+                 To create a generator, you need to first define a generator function with function* symbol. 
+
+14.Clean Code
+                 Clean code is clear, understandable, and maintainable.
+                 Clean code can be defined as the code written in such a manner that is self-explanatory, easy to understand by humans and easy to      change.
+
+15.Bind
+                 With the bind() method, an object can borrow a method from another object.
+                 It allows you to create a new function from an existing function, change the new function's this context, and provide any arguments   you want the new function to be called with.
+
+16.JSON (JavaScript Object Notation )
+                 JSON is a format for storing and transporting data. JSON is often used when data is sent from a server to a web page.
+
+17.JQUERY  $()
+                 jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+
+18.EXECUTION CONTEXT
+                 The Execution Context contains the code that's currently running, and everything that aids in its execution
+
+19.IndexOf
+                 The indexOf() method returns the position of the first occurrence of a value in a string. The indexOf() method returns -1 if the value is      not found.
+20.FILTER
+                 The filter() method creates a new array filled with elements that pass a test provided by a function. 
+
+
+
+
+                 
+
+
+
+
+
+
+
